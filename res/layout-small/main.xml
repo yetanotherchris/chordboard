@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/mainLayout" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" 
+android:orientation="vertical"
+android:background="#FF202020"
+>
+		
+	<!-- Top chord letter -->
+	<LinearLayout android:id="@+id/topLayout" android:layout_width="fill_parent" android:layout_height="40dip" android:orientation="vertical" android:gravity="center_horizontal|center_vertical">
+		<TextView android:id="@+id/textViewChordName" android:layout_width="fill_parent" android:text="DMaj" android:layout_height="wrap_content" android:textSize="30sp" android:gravity="center_horizontal|center_vertical" />
+	</LinearLayout>
+	
+	<!-- Middle fret board -->
+	<LinearLayout android:id="@+id/freyBoardLayoutContainer" android:background="@drawable/middle" android:layout_width="fill_parent" android:layout_height="240dip" android:orientation="horizontal">	
+		<LinearLayout android:id="@+id/freyBoardLayout" android:gravity="center_horizontal|center_vertical" android:layout_width="fill_parent" android:layout_height="240dip">
+			<!--  FretView here -->
+		</LinearLayout>
+	</LinearLayout>
+	
+	<!-- Bottom buttons -->
+	<LinearLayout android:id="@+id/bottomLayout" android:background="@drawable/bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"  android:orientation="vertical">	
+		
+		<!-- Row 1 (roots) -->
+		<LinearLayout android:id="@+id/linearLayoutChords" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="50dip" android:orientation="horizontal">
+			<ImageButton android:id="@+id/buttonC" android:src="@drawable/buttonc" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="45dip" android:layout_height="45dip" android:onClick="buttonOnClick" />
+			<ImageButton android:id="@+id/buttonD" android:src="@drawable/buttond" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="45dip" android:layout_height="45dip" android:onClick="buttonOnClick" />
+			<ImageButton android:id="@+id/buttonE" android:src="@drawable/buttone" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="45dip" android:layout_height="45dip" android:onClick="buttonOnClick" />
+			<ImageButton android:id="@+id/buttonF" android:src="@drawable/buttonf" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="45dip" android:layout_height="45dip" android:onClick="buttonOnClick" />
+			<ImageButton android:id="@+id/buttonG" android:src="@drawable/buttong" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="45dip" android:layout_height="45dip" android:onClick="buttonOnClick" />
+			<ImageButton android:id="@+id/buttonA" android:src="@drawable/buttona" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="45dip" android:layout_height="45dip" android:onClick="buttonOnClick" />
+			<ImageButton android:id="@+id/buttonB" android:src="@drawable/buttonb" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="45dip" android:layout_height="45dip" android:onClick="buttonOnClick" />
+		</LinearLayout>
+		
+		<!-- Row 2 (types) -->
+		<LinearLayout android:id="@+id/linearLayoutTypes" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="50dip" android:orientation="horizontal" android:paddingTop="0px">
+			<ImageButton android:id="@+id/buttonMajor" android:src="@drawable/buttonmajor" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="48dip" android:layout_height="35dip" android:onClick="buttonOnClick" />
+			<ImageButton android:id="@+id/buttonMinor" android:src="@drawable/buttonminor" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="48dip" android:layout_height="35dip" android:onClick="buttonOnClick" />
+			<ImageButton android:id="@+id/buttonSeven" android:src="@drawable/buttonseven" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="48dip" android:layout_height="35dip" android:onClick="buttonOnClick" />
+			<ImageButton android:id="@+id/buttonMajor7" android:src="@drawable/buttonmajorseven" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="48dip" android:layout_height="35dip" android:onClick="buttonOnClick" />
+			<ImageButton android:id="@+id/buttonMinor7" android:src="@drawable/buttonminorseven" android:scaleType="fitXY" android:background="@android:color/transparent" android:layout_width="48dip" android:layout_height="35dip" android:onClick="buttonOnClick" />
+		</LinearLayout>
+	</LinearLayout>
+		
+</LinearLayout>

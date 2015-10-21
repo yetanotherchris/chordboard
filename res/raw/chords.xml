@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chords>
+	<chordgroup name="A">
+		<chord name="AMaj">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="2" column="2" finger="2" />
+				<finger row="2" column="3" finger="3" />
+				<finger row="2" column="4" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="AMin">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="4" finger="1" />
+				<finger row="2" column="2" finger="2" />
+				<finger row="2" column="3" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="A7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="2" column="2" finger="2" />
+				<finger row="2" column="4" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="AMaj7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="3" finger="1" />
+				<finger row="2" column="2" finger="2" />
+				<finger row="2" column="4" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="AMin7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="4" finger="1" />
+				<finger row="2" column="2" finger="2" />
+			</fingers>
+		</chord>
+	</chordgroup>
+	<chordgroup name="B">
+		<chord name="BMaj">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<barre row="2" start="1" end="5" finger="1" />
+				<finger row="4" column="2" finger="2" />
+				<finger row="4" column="3" finger="3" />
+				<finger row="4" column="4" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="BMin">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<barre row="2" start="1" end="5" finger="1" />
+				<finger row="3" column="4" finger="2" />
+				<finger row="4" column="2" finger="4" />
+				<finger row="4" column="3" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="B7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="2" finger="1" />
+				<finger row="2" column="1" finger="2" />
+				<finger row="2" column="3" finger="3" />
+				<finger row="2" column="5" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="BMaj7">
+			<closedFingers/>
+			<fingers>
+				<finger row="1" column="2" finger="1" />
+				<finger row="2" column="0" finger="2" />
+				<finger row="2" column="1" finger="3" />
+				<finger row="3" column="3" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="BMin7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="2" column="1" finger="2" />
+				<finger row="2" column="3" finger="3" />
+				<finger row="2" column="5" finger="4" />
+			</fingers>
+		</chord>
+	</chordgroup>
+	<chordgroup name="C">
+		<chord name="CMaj">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="4" finger="1" />
+				<finger row="2" column="2" finger="2" />
+				<finger row="3" column="1" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="CMin">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="2" finger="2" />
+				<finger row="1" column="4" finger="1" />
+				<finger row="3" column="1" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="C7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="4" finger="1" />
+				<finger row="2" column="2" finger="2" />
+				<finger row="3" column="1" finger="3" />
+				<finger row="3" column="3" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="CMaj7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="2" column="2" finger="2" />
+				<finger row="3" column="1" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="CMin7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+				<closedFinger>1</closedFinger>
+			</closedFingers>
+			<fingers>
+				<barre row="1" start="2" end="4" finger="1" />
+				<finger row="3" column="3" finger="3" />
+				<finger row="3" column="5" finger="4" />
+			</fingers>
+		</chord>
+	</chordgroup>
+	<chordgroup name="D">
+		<chord name="DMaj">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+				<closedFinger>1</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="2" column="3" finger="1" />
+				<finger row="2" column="5" finger="2" />
+				<finger row="3" column="4" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="DMin">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+				<closedFinger>1</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="5" finger="1" />
+				<finger row="2" column="3" finger="2" />
+				<finger row="3" column="4" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="D7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+				<closedFinger>1</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="4" finger="1" />
+				<finger row="2" column="3" finger="2" />
+				<finger row="2" column="5" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="DMaj7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+			</closedFingers>
+			<fingers>
+				<barre row="2" start="3" end="5" finger="1" />
+				<finger row="4" column="2" finger="3" />
+				<finger row="5" column="1" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="DMin7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+				<closedFinger>1</closedFinger>
+			</closedFingers>
+			<fingers>
+				<barre row="1" start="4" end="5" finger="1" />
+				<finger row="2" column="3" finger="2" />
+			</fingers>
+		</chord>
+	</chordgroup>
+	<chordgroup name="E">
+		<chord name="EMaj">
+			<closedFingers/>
+			<fingers>
+				<finger row="1" column="3" finger="1" />
+				<finger row="2" column="1" finger="2" />
+				<finger row="2" column="2" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="EMin">
+			<closedFingers/>
+			<fingers>
+				<finger row="2" column="1" finger="2" />
+				<finger row="2" column="2" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="E7">
+			<closedFingers/>
+			<fingers>
+				<finger row="1" column="3" finger="1" />
+				<finger row="2" column="1" finger="2" />
+			</fingers>
+		</chord>
+		<chord name="EMaj7">
+			<closedFingers/>
+			<fingers>
+				<finger row="1" column="2" finger="1" />
+				<finger row="1" column="3" finger="2" />
+				<finger row="2" column="1" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="EMin7">
+			<closedFingers/>
+			<fingers>
+				<finger row="2" column="1" finger="2" />
+				<finger row="2" column="2" finger="3" />
+				<finger row="3" column="4" finger="4" />
+			</fingers>
+		</chord>
+	</chordgroup>
+	<chordgroup name="F">
+		<chord name="FMaj">
+			<closedFingers/>
+			<fingers>
+				<barre row="1" start="0" end="5" finger="1" />
+				<finger row="2" column="3" finger="2" />
+				<finger row="3" column="1" finger="3" />
+				<finger row="3" column="2" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="FMin">
+			<closedFingers/>
+			<fingers>
+				<barre row="1" start="0" end="5" finger="1" />
+				<finger row="3" column="1" finger="3" />
+				<finger row="3" column="2" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="F7">
+			<closedFingers/>
+			<fingers>
+				<barre row="1" start="0" end="5" finger="1" />
+				<finger row="2" column="3" finger="2" />
+				<finger row="3" column="1" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="FMaj7">
+			<closedFingers>
+				<closedFinger>1</closedFinger>
+				<closedFinger>5</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="0" finger="1" />
+				<finger row="1" column="4" finger="2" />
+				<finger row="2" column="2" finger="3" />
+				<finger row="2" column="3" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="FMin7">
+			<closedFingers/>
+			<fingers>
+				<barre row="1" start="0" end="5" finger="1" />
+				<finger row="3" column="1" finger="2" />
+				<finger row="3" column="2" finger="3" />
+				<finger row="4" column="4" finger="4" />
+			</fingers>
+		</chord>
+	</chordgroup>
+	<chordgroup name="G">
+		<chord name="GMaj">
+			<closedFingers/>
+			<fingers>
+				<finger row="2" column="1" finger="2" />
+				<finger row="3" column="0" finger="3" />
+				<finger row="3" column="5" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="GMin">
+			<closedFingers/>
+			<fingers>
+				<finger row="1" column="1" finger="1" />
+				<finger row="3" column="0" finger="2" />
+				<finger row="3" column="4" finger="3" />
+				<finger row="3" column="5" finger="4" />
+			</fingers>
+		</chord>
+		<chord name="G7">
+			<closedFingers>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="5" finger="1" />
+				<finger row="2" column="1" finger="2" />
+				<finger row="3" column="0" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="GMaj7">
+			<closedFingers>
+			</closedFingers>
+			<fingers>
+				<finger row="2" column="1" finger="2" />
+				<finger row="2" column="5" finger="1" />
+				<finger row="3" column="0" finger="3" />
+			</fingers>
+		</chord>
+		<chord name="GMin7">
+			<closedFingers>
+				<closedFinger>0</closedFinger>
+				<closedFinger>5</closedFinger>
+			</closedFingers>
+			<fingers>
+				<finger row="1" column="1" finger="1" />
+				<finger row="3" column="2" finger="3" />
+				<finger row="3" column="4" finger="4" />
+			</fingers>
+		</chord>
+	</chordgroup>
+</chords>
